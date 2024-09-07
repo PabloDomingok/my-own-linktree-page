@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #17153B;
+    color:#C8ACD6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:100vw;
+    font-family: Poppins, sans-serif;
+}
+
+header{
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top:15px;
+}
+
+.share-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #433D8B;
+    border: 1px solid #433D8B;
+
+}
+
+.share-button:hover{
+    transition:0.3s;
+    background-color: #17153B;
+}
+
+.container{
+    width:91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 15.5px;
+}
+
+a{
+    text-decoration: none;
+    color: #C8ACD6;
+    font-weight: 700;
+}
+
+.tile{
+    width: 100%;
+    background-color: #433D8B;
+    margin: 7px;
+    border-radius: 20px;
+    border:2px solid #C8ACD6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile:hover{
+    transition:0.3s;
+    background-color: #17153B;
+}
+
+.image-container{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    overflow: hidden;
+}
+
+.image-container img{
+    height: 100%;
+
+}
+
+.tile-share-button {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #C8ACD6;
+    border: 1px solid #433D8B;
+}
+
+.share-button svg{
+    width: 50%;
+   height: 50%;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+.icon{
+    margin: 4px 8px;
+    width: 44px;
+    height: 44px;
+    
+}
+
+.tile-share-button svg{
+   width: 50%;
+   height: 50%;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+.tile-share-button:hover{
+    transition:0.3s;
+    background-color: #17153B;
+}
