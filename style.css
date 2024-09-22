@@ -1,7 +1,8 @@
 body{
     margin:0;
     padding:0;
-    background-color: #17153B;
+    background-color: ;
+    background-image: radial-gradient(purple 30%,#17153B);
     color:#C8ACD6;
     display: flex;
     align-items: center;
